@@ -1,0 +1,21 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.container{
+  width: 600px;
+  margin: auto;
+  background-color: aliceblue;
+  padding: 20px;
+  border: blue 3px solid;
+  border-radius: 10px;
+}
+
+#feedback{
+  background-color: red;
+  color: lightblue;
+  font-size: 30px;
+  font-weight: bold;
+}
