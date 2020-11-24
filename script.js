@@ -9,6 +9,7 @@ const myInventory = document.getElementById('inventory');
 
 let currentLocation = 0;
 
+//i did not come up with this, my teacher forced me to do this badness
 let locations = [];
 locations[0] = "Start Location";
 locations[1] = "bridge";
@@ -49,12 +50,6 @@ descriptions[4] = "The armory, the photon torpedoes can be launched from here.";
 descriptions[5] = "Main engineering, our FTL drive (the warp core) is located here.";
 descriptions[6] = "The hallway, we can reach any section of the ship from here!";
 descriptions[7] = "Shuttlebay, we launch our shuttles from here and on some occations we receive guests here.";
-
-conditions = [];
-conditions[0] = "Red Alert" //Red Alert - Raises shields and weapons
-conditions[1] = "Yellow Alert" //Yellow Alert - raises shields at 50%
-conditions[2] = "Green Alert" //Green Alert = No shields/Weapons charged and recharges the shields
-conditions[3] = "Grey Alert" //Grey Alert - recharge state
 
 myInput.addEventListener('keydown', getInput, false);
 
